@@ -1,0 +1,15 @@
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ( )
+{int t,v,s;
+ s = 0;
+ v = 3;
+ for(t=1; t <= 12345; t=t+1 )
+    { s = s + v;
+      if(t%420 == 0 )
+	  {v = v + 1; }
+    }
+ cout << s;
+}
